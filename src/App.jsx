@@ -1,13 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import React, { useEffect, useState } from "react";
+import FetchData from "./FetchData";
 
-function App() {
 
-  return (
-    <>
-
-    </>
-  )
+  function App(){
+    
+    FetchData()
+    return 
+        <>
+        </>
 }
 
-export default App
+export default App;
+
+
+
+
+
