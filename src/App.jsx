@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
-import FetchData from "./FetchData";
+import './App.css'
+import ContactList from './components/ContactList';
 
-
-  function App(){
-    
-    FetchData()
-    return 
-        <>
-        </>
+export default function App() {
+  return (
+    <>
+      <ContactList />
+    </>
+  );
 }
-
-export default App;
-
-
-
-
-
